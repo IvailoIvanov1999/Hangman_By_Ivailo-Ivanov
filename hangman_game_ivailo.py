@@ -219,7 +219,7 @@ def hangman(rndmized_word):
             break
 
         # input letter
-        player_letters_input = input("Guess the word: ").lower()
+        player_letters_input = input("Input a letter: ").lower()
 
         if player_letters_input in used_letters:
             print("-----------------------------------------------")
@@ -274,7 +274,7 @@ def hangman(rndmized_word):
 
 
 print('      ____________________')
-print(typewriter('      |      Hangman     |'))
+print(typewriter('      |      Hangman      |'))
 print(typewriter('      |  by Ivailo Ivanov |'))
 print('      ____________________')
 print()
